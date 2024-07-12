@@ -8,30 +8,33 @@
 
     <link rel="stylesheet" href="mdui.css">
     <script src="mdui.global.js"></script>
-    <link href="MaterialIcons-Regular.ttf"rel="stylesheet">
+    <link href="MaterialIcons-Regular.ttf" rel="stylesheet">
 
     <title>Document</title>
 </head>
 <style>
-
+@font-face {
+	font-family: icon;
+	src: url(./MaterialIcons-Regular.ttf);
+}
 </style>
 
 <body>
     <div style="overflow: hidden">
         <mdui-top-app-bar scroll-behavior="elevate" scroll-target=".scroll">
-            <mdui-button-icon icon="menu"></mdui-button-icon>
+            <mdui-button-icon style="font-family:icon;">menu</mdui-button-icon>
             <mdui-top-app-bar-title>Chak</mdui-top-app-bar-title>
             <div style="flex-grow: 1"></div>
-            <mdui-button-icon icon="more_vert"></mdui-button-icon>
+            <mdui-button-icon style="font-family:icon;">menu</mdui-button-icon>
         </mdui-top-app-bar>
 
 
     </div>
-        <div class="scroll" style="overflow: auto;">
-            <div style="height: 1000px">
+    <div class="scroll" style="overflow: auto;">
+        <div style="height: 1000px">
 
-            </div>
         </div>
+    </div>
 
 </body>
 
